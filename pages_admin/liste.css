@@ -1,0 +1,90 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 10px;
+}
+
+h2 {
+   
+    margin-left: 400px;
+}
+
+h3 {
+  
+    margin-left: 350px;
+}
+
+
+thead th {
+    background-color: #cbced3;
+    border-bottom: 2px solid #ddd;
+    padding: 11px;
+    text-align: left;
+}
+
+tbody td {
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+}
+
+tbody tr:hover {
+    background-color: #ece2e2;
+}
+
+.edit-btn, .delete-btn, .add-btn {
+    display: inline-block;
+    padding: 3px 4px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.edit-btn {
+    background-color: #938fca;
+    width: 80%;
+   
+    color: white;
+    margin-left: 6px;
+    
+}
+
+.delete-btn {
+    width: 80%;
+    background-color: #df382c;
+    color: white;
+    margin-left: 5px;
+}
+/* Style pour le formulaire de recherche */
+form {
+    margin-bottom: 20px; /* Espacement en bas du formulaire */
+}
+
+/* Style pour le menu déroulant */
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Style pour le champ de saisie */
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de soumission */
+button[type="submit"] {
+    padding: 8px 20px; /* Padding haut/bas, gauche/droite */
+    font-size: 16px;
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanc */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Curseur pointer pour indiquer que c'est un bouton cliquable */
+}
+
+/* Style pour le bouton de soumission au survol */
+button[type="submit"]:hover {
+    background-color: rgb(0, 86, 179); /* Couleur de fond plus foncée au survol */
+}
+
+

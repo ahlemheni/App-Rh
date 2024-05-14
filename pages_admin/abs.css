@@ -1,0 +1,49 @@
+.form-group {
+    margin-bottom: 20px;
+    display: grid; /* Utilisation de la disposition en grille */
+    grid-template-columns: 1fr 3fr; /* Deux colonnes, une pour le label et une pour l'input */
+    align-items: center; /* Centrer verticalement les éléments */
+}
+
+label {
+    text-align: right; /* Aligner le texte du label à droite */
+    padding-right: 10px; /* Ajouter un espace entre le label et l'input */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+select,
+textarea { /* Correction ici: ajouter textarea */
+    width: 60%; /* Utiliser toute la largeur disponible */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Correction: le sélecteur ".form-group textarea" était mal formé */
+textarea {
+    width: 63%; /* Largeur pleine */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    resize: vertical; /* Autoriser le redimensionnement vertical */
+    box-sizing: border-box; /* Inclure les bordures et le remplissage dans la largeur et la hauteur */
+}
+
+h2 {
+    margin-left: 40%;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}

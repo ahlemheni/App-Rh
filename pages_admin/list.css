@@ -1,0 +1,44 @@
+/* Style pour le formulaire de recherche */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+/* Style pour le menu déroulant */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Style pour le champ de saisie */
+input[type="textt"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Style pour le bouton de soumission */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le bouton de soumission au survol */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

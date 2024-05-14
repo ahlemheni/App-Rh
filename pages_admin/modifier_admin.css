@@ -1,0 +1,50 @@
+.form-group {
+    margin-bottom: 20px;
+    display: grid; /* Utilisation de la disposition en grille */
+    grid-template-columns: 1fr 3fr; /* Deux colonnes, une pour le label et une pour l'input */
+    align-items: center; /* Centrer verticalement les éléments */
+}
+
+label {
+    text-align: right; /* Aligner le texte du label à droite */
+    padding-right: 10px; /* Ajouter un espace entre le label et l'input */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 60%; /* Utiliser toute la largeur disponible */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+h2 {
+
+    margin-left: 30%;
+}
+
+
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+
+
+
